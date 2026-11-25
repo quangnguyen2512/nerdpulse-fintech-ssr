@@ -1,0 +1,126 @@
+{
+  "version": "2.9.7",
+  "kind": "knowledge",
+  "project": {
+    "name": "jobicy_dc7b3545f061_nerdwallet",
+    "languages": [
+      "markdown",
+      "typescript"
+    ],
+    "frameworks": [],
+    "description": "Interactive Knowledge Graph for `jobicy_dc7b3545f061_nerdwallet` (auto-synced via Understand-Anything).",
+    "analyzedAt": "2026-11-25T16:05:13.271909+00:00",
+    "gitCommitHash": "be3ca57eb0d06aefd72253dbf4026e4bcf4a3f63"
+  },
+  "nodes": [
+    {
+      "id": "module:src",
+      "type": "module",
+      "name": "src",
+      "filePath": "src",
+      "summary": "Subsystem directory `src/` containing 9 tracked artifacts.",
+      "tags": [
+        "subsystem",
+        "src"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "module:tests",
+      "type": "module",
+      "name": "tests",
+      "filePath": "tests",
+      "summary": "Subsystem directory `tests/` containing 3 tracked artifacts.",
+      "tags": [
+        "subsystem",
+        "tests"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:APPLY_PITCH_AND_AUDIT.md",
+      "type": "document",
+      "name": "APPLY_PITCH_AND_AUDIT.md",
+      "filePath": "APPLY_PITCH_AND_AUDIT.md",
+      "lineRange": [
+        1,
+        88
+      ],
+      "summary": "NerdWallet Consumer Banking — Eligibility Audit, Anti-Slop Pitch & Live Verification Report (`APPLY_PITCH_AND_AUDIT.md`, 88 lines).",
+      "tags": [
+        "document",
+        "md"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ARCHITECTURE.md",
+      "type": "document",
+      "name": "ARCHITECTURE.md",
+      "filePath": "ARCHITECTURE.md",
+      "lineRange": [
+        1,
+        50
+      ],
+      "summary": "ARCHITECTURE — NerdPulse Consumer Banking Marketplace (`ARCHITECTURE.md`, 50 lines).",
+      "tags": [
+        "document",
+        "md"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "lineRange": [
+        1,
+        105
+      ],
+      "summary": "NerdPulse Banking Marketplace — High-Performance Consumer Banking SSR, Zero-CLS A/B & SEO/CWV Harness (`README.md`, 105 lines).",
+      "tags": [
+        "document",
+        "md"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [],
+  "layers": [
+    {
+      "id": "layer:governance",
+      "name": "Governance, Rules & MCP Config",
+      "description": "Root architecture pin, agent rules, and MCP tool gateways.",
+      "nodeIds": [
+        "file:ARCHITECTURE.md"
+      ]
+    },
+    {
+      "id": "layer:manuscripts",
+      "name": "Manuscripts, BibTeX & LaTeX/PDF Deliverables",
+      "description": "Synchronized English/Vietnamese manuscripts, 75 DOI-verified references, LaTeX, HTML, and PDFs.",
+      "nodeIds": [
+        "file:APPLY_PITCH_AND_AUDIT.md",
+        "file:README.md"
+      ]
+    },
+    {
+      "id": "layer:verification",
+      "name": "Tests & Quality Assurance",
+      "description": "Automated test suites and verification scripts.",
+      "nodeIds": [
+        "module:tests"
+      ]
+    },
+    {
+      "id": "layer:core",
+      "name": "Core Utilities & Scripts",
+      "description": "Root workspace scripts and shared helpers.",
+      "nodeIds": [
+        "module:src"
+      ]
+    }
+  ],
+  "tour": []
+}

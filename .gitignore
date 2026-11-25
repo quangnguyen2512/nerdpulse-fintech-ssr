@@ -1,0 +1,21 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db
+
+# Local application drafts (keep private, do not push)
+APPLY_PITCH_AND_AUDIT.md
+data/
+*.db
+*.db-wal
+*.db-shm
+.pytest_cache/
+__pycache__/
+*.tsbuildinfo
+APPLY_*.md
+LOOM_SCRIPTS*.md
+SUBMISSION*.md
