@@ -10,10 +10,9 @@ High-performance **TypeScript + Node.js SSR** reference architecture for consume
 
 ## Directory Boundaries
 ```text
-jobicy_dc7b3545f061_nerdwallet/
+nerdpulse-fintech-ssr/
 ├── ARCHITECTURE.md            # Project system map & invariants
-├── README.md                  # Setup, architecture, U.S. Remote HITL caveat & dual-value guide
-├── APPLY_PITCH_AND_AUDIT.md   # Anti-slop pitch + verified audit scorecard + eligibility note
+├── README.md                  # Setup, architecture & verification guide
 ├── src/
 │   ├── domain/
 │   │   ├── banking.ts         # Synthetic HYSA/CD catalog, Reg DD compounding, fee drag, promo expiry, 72h guardrail, ranking
@@ -43,8 +42,3 @@ Incoming HTTP Request -> app.ts (Cookie/VisitorId + Zod Validation)
          └─> POST /api/telemetry/vitals -> telemetry.ts (p75 CWV + SRM Chi-Square)
          └─> GET /api/audit & `npm run audit` -> harness.ts (14-Check Spec Gate)
 ```
-
-<!-- AUTO-KG-STATS:START -->
-- **Knowledge Graph Live Sync:** `2026-11-25 16:02 UTC` | Nodes: **21** | Edges: **12** | Layers: **5** | Languages: `markdown, typescript`
-- **Top Connected Hubs:** `src/audit/cli.ts` (1), `src/audit/harness.ts` (1), `src/domain/banking.ts` (1), `src/domain/experiments.ts` (1), `src/domain/seo.ts` (1)
-<!-- AUTO-KG-STATS:END -->

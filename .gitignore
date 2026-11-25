@@ -19,3 +19,5 @@ __pycache__/
 APPLY_*.md
 LOOM_SCRIPTS*.md
 SUBMISSION*.md
+.ua/
+.understand-anything/
